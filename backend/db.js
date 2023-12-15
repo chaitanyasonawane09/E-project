@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
 const dotenv=require("dotenv");
-// const mongoUri='mongodb+srv://GoFood:GoFood@cluster0.rzuocgs.mongodb.net/GoFood?retryWrites=true&w=majority'
 dotenv.config({path:'./config.env'});
 const mongoUri=process.env.DATABASE
 
